@@ -16,7 +16,7 @@ def GetFileList(dir, fileList):
     if os.path.isfile(dir):
         fpath ,fname =  os.path.split(dir)
         if fname[0] != "." :
-            fileList.append(dir.decode('utf-8'))
+            fileList.append(dir)
     elif os.path.isdir(dir):
         for s in os.listdir(dir):
             newDir = os.path.join(dir, s)
@@ -26,7 +26,7 @@ def GetFileList(dir, fileList):
 
 def getFileStrLen(path):
     if path:
-        return path.decode('utf-8').__len__()
+        return path.__len__()
 
 
 try:
