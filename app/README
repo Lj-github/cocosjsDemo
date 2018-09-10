@@ -1,0 +1,11 @@
+cocos shader区别于 原生webgl  以及egret
+在 vertex  里面  定义 attribute  时候 必须使用cocos 预先定义好的变量 才能实现效果
+    不然  不会显示效果 并且不会报错！！！
+
+
+ 在 vertex  和  fragment 里面 varying 定义 必须相同  在所有版本都一样
+
+ cocos  的二维纹理  只能使用 CC_Texture0
+
+ 传参 uniform  类似原生  包了一层  不想 egret  里面直接访问对象   cocos  还是使用get  set
+
