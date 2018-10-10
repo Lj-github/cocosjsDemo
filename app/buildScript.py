@@ -46,7 +46,7 @@ try:
             for jsfil in allJsList:
                 newJson["jsList"].append(jsfil[getFileStrLen(sys.path[0]) + 1:])
             with open("project.json", 'w') as f:
-                json.dump(newJson, f)
+                json.dump(newJson, f, sort_keys=True, indent=4, separators=(',', ':'))
 
 except NameError:
     pass

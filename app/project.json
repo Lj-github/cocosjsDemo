@@ -1,1 +1,28 @@
-{"showFPS": true, "noCache": false, "modules": ["cocos2d", "cocostudio", "ccbreader", "editbox"], "frameRate": 60, "jsList": ["script/App.js", "script/base/BaseForm.js", "script/base/BaseLayer.js", "script/base/BaseScene.js", "script/base/BaseSwallowLayer.js", "script/layer/LayerWave.js", "script/layer/TapWater.js", "script/scene/MainScene.js", "script/test.js", "script/unit/Resource.js"], "project_type": "javascript", "debugMode": 1, "engineDir": "frameworks/cocos2d-html5", "renderMode": 0, "id": "gameCanvas"}
+{
+    "debugMode":1,
+    "engineDir":"frameworks/cocos2d-html5",
+    "frameRate":60,
+    "id":"gameCanvas",
+    "jsList":[
+        "script/App.js",
+        "script/base/BaseForm.js",
+        "script/base/BaseLayer.js",
+        "script/base/BaseScene.js",
+        "script/base/BaseSwallowLayer.js",
+        "script/layer/LayerWave.js",
+        "script/layer/TapWater.js",
+        "script/scene/MainScene.js",
+        "script/test.js",
+        "script/unit/Resource.js"
+    ],
+    "modules":[
+        "cocos2d",
+        "cocostudio",
+        "ccbreader",
+        "editbox"
+    ],
+    "noCache":false,
+    "project_type":"javascript",
+    "renderMode":0,
+    "showFPS":true
+}
