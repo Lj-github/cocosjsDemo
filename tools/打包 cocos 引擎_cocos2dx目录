@@ -1,0 +1,22 @@
+打包 cocos 引擎  
+
+
+cocos2dx/mmshow/mmshow4publish/makeGameMinJS.sh   配置号  信息 直接执行 就行
+
+下载  ant  http://ant.apache.org/bindownload.cgi 
+
+13 .tar.gz archive: apache-ant-1.9.13-bin.tar.gz [PGP] [SHA1] [SHA512]
+
+解压  在 /Users/admin/.bash_profile  添加  环境变量
+
+#ant
+export ANT_ROOT=/Users/admin/Documents/environment/apache-ant-1.9.13/bin
+export PATH=/Users/admin/Documents/environment/apache-ant-1.9.13/bin:$PATH
+
+///执行  cocos2dx/mmshow/mmshow4publish/makeGameMinJS.sh
+
+
+cocos compile -p web -m release
+发布 cocos  但是 会弄一堆 东西  gamemainjs
+
+应该新建一个  项目 只是为了  打包 game.min.js  来 分开js 文件

@@ -1,0 +1,16 @@
+var metas = {"car":{"id":"car","props":[{"name":"$engine","ref":"engine"},{"name":"$Vnum","value":"${car.num}"}],"fpath":"app/domain/car.js"},"engine":{"id":"engine","fpath":"app/domain/engine.js"}};
+window.__bearcatData__ = {};
+window.__bearcatData__.metas = {};
+window.__bearcatData__.configData = {};
+var id = "car";
+var meta = metas[id];
+var fpath = meta["fpath"];
+meta["func"] = require("./app/domain/car.js");
+window.__bearcatData__.metas[id] = meta;
+var id = "engine";
+var meta = metas[id];
+var fpath = meta["fpath"];
+meta["func"] = require("./app/domain/engine.js");
+window.__bearcatData__.metas[id] = meta;
+var properties = {};
+window.__bearcatData__.configData = properties;

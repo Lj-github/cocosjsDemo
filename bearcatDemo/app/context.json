@@ -1,0 +1,6 @@
+{
+  "name": "demo",
+  "description": "client context.json",
+  "scan": ["static/script"],
+  "beans": []
+}
